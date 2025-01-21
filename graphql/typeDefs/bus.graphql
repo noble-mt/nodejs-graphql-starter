@@ -1,0 +1,20 @@
+type Query {
+    buses: [Bus]
+}
+
+type Bus {
+
+    busId: String
+    busNumber: String   
+    busName: String
+}
+
+input BusInput {
+    busId: String!
+    busNumber: String!
+    busName: String!
+}
+
+type Mutation {
+    createBus(input: BusInput!): Bus
+}

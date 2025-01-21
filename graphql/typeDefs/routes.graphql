@@ -1,0 +1,29 @@
+type Query {
+    routes: [Route]
+}
+
+type Stop {
+    locationId: Int
+    time: Int   
+}
+
+type Route {
+    busId: String
+    status: Boolean
+    routes: [Stop]
+}
+
+input StopInput {
+    locationId: Int
+    time: Int   
+}
+
+input RouteInput {
+    busId: String,
+    status: Boolean,
+    routes: [StopInput]
+}
+
+type Mutation {
+    createRoute(input: RouteInput): Route
+}
