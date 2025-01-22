@@ -1,8 +1,21 @@
 # nodejs-graphql-starter
-## Installation
+This is a starter kit for building a GraphQL API with Node.js and TypeScript. It provides a foundation for building robust and scalable GraphQL applications.
 
+## Getting Started
+
+### 1. Clone the repository:
+````bash
+git clone https://github.com/noble-mt/nodejs-graphql-starter.git
 ````
+
+### 2. Install dependencies:
+````bash
+cd nodejs-graphql-starter
 npm install
+````
+
+### 3. Start the development server:
+````bash
 npm start
 ````
 
