@@ -53,7 +53,7 @@ repository/
 codegen.ts
    # Configure for the schema auto generation script
 loadConfig.ts
-   # Please to read all the enviornmental configs and create a structured object for easy access
+   # Reading all the enviornmental configs and create a structured object for easy access
 ...
 package.json
   # Project dependencies
