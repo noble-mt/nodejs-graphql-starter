@@ -1,6 +1,17 @@
 # nodejs-graphql-starter
 This is a starter kit for building a GraphQL API with Node.js and TypeScript. It provides a foundation for building robust and scalable GraphQL applications.
 
+
+## Features
+* TypeScript support: Ensures type safety and reduces errors.
+* Modular structure: Code is organized into separate files for schemas, resolvers, and data models.
+* Authentication using passportJS to support multiple authentications including social logins
+* Graphql implemented and authenticated routes
+* Auto generate types and schema as much as possible
+* Use of Express session and inject current user to graphql context for all resolvers to user
+* Option to connect to multiple DB's including mongoDB
+* Testing: Includes unit and end-to-end testing examples.***
+
 ## Getting Started
 
 ### 1. Clone the repository:
